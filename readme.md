@@ -59,9 +59,9 @@ formulaire_securise/
 
 ## ⚙️ Installation & exécution
 
-### 1. Cloner le dépôt
 
 ```bash
+### 1. Cloner le dépôt
 git clone https://github.com/ton-utilisateur/formulaire_securise.git
 cd formulaire_securise
 
