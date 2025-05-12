@@ -1,3 +1,9 @@
+## 📄 Rapport de sécurité
+
+👉 [Voir le rapport PDF](rapport/rapport_securite_by_design.pdf)
+
+
+
 # 🔐 Formulaire de Contact Sécurisé – Security by Design
 
 Ce projet a été réalisé dans le cadre d’un exercice pratique visant à développer un formulaire de contact en local en appliquant les principes de **Security by Design**. L'objectif principal est de sécuriser les données utilisateurs tout en respectant les meilleures pratiques de développement web sécurisé.
