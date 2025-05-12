@@ -53,7 +53,7 @@ formulaire_securise/
 - **sanitize-html** pour contrer les attaques XSS
 - **Google reCAPTCHA v2**
 - **morgan** pour les logs
-- **OWASP ZAP**, **Postman**, **Chrome DevTools** pour les tests
+- **Chrome DevTools** pour les tests
 
 ---
 
