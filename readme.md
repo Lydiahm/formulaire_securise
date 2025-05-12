@@ -20,12 +20,25 @@ Ce projet a été réalisé dans le cadre d’un exercice pratique visant à dé
 
 ## 📁 Arborescence du projet
 formulaire_securise/
-├── public/ → Pages HTML (login, register, formulaire)
-├── src/ → Serveur Node.js (server.js, fichiers JSON)
-├── config/ssl/ → Certificats SSL locaux (key.pem, cert.pem)
-├── logs/ → Fichier access.log
-├── .env → Variables d'environnement (non versionné)
-├── package.json → Dépendances
+├── config/
+│   ├── cert.pem
+│   └── key.pem
+├── logs/
+│   └── access.log
+├── public/
+│   ├── login.html
+│   └── index.html
+│   └── register.html
+├── protected/
+│   └── index.html
+├── src/
+│   └── server.js
+│   ├── users.json
+│   └── messages.json
+├── package.json
+├── .env
+├── readme.md
+└── .gitignore
 
 
 ---
@@ -52,3 +65,10 @@ formulaire_securise/
 git clone https://github.com/ton-utilisateur/formulaire_securise.git
 cd formulaire_securise
 
+### 2. Installer les dépendances
+npm install
+
+
+### 3. Lancer le serveur HTTPS
+node src/server.js
+Accéder à : https://localhost:3000
